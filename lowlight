@@ -1,0 +1,8 @@
+import time
+from adafruit_circuitplayground import cp
+
+while True:
+    print(cp.light)
+    time.sleep(0.2)
+    if cp.light < 3:
+        cp.pixels.fill((255, 255, 255))
