@@ -5,4 +5,6 @@ while True:
     print(cp.light)
     time.sleep(0.2)
     if cp.light < 3:
-        cp.pixels.fill((255, 255, 255))
+        cp.pixels.fill((240, 240, 240))
+    else:
+        cp.pixels.fill((0, 0, 0))
